@@ -1,6 +1,7 @@
 ## Tasks To Be Performed
 **1.Use the previous deployment**
-**2.Deploy an NGINX deployment of 3 replica1**
+
+**2.Deploy an NGINX deployment of 3 replica**
 ```bash
 kubectl scale deployment nginx-development --replicas=3
 kubectl get deployment
